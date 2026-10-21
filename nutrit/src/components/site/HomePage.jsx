@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./Header";
 import OrderForm from "./OrderForm";
 import { Hero, Gallery, HowToOrder, BulkOrders, Contact, Footer } from "./Sections";
-import { scrollToId } from "./ui";
+import { scrollToId } from "./Ui";
 
 export default function HomePage() {
   const [preset, setPreset] = useState(null);
