@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { MessageCircle, Info } from "lucide-react";
 import { products, getProductById } from "../../data/product";
 import { validateOrder, buildOrderMessage, whatsappLink, calcSubtotal, earliestDate, formatNaira, formatPrice, unitLabel, PRICE_TBC } from "../../lib/order-utils";
-import { SectionHeading } from "./ui";
+import { SectionHeading } from "./Uii";
 
 const empty = { name: "", phone: "", orderType: "Small Order", productId: "", quantity: "", date: "", fulfilment: "Pickup", address: "", notes: "" };
 

@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { products } from "../../data/product";
 import { siteConfig, navLinks } from "../../data/siteConfig";
 import { formatPrice, whatsappLink, introMessage } from "../../lib/order-utils";
-import { Btn, SectionHeading, scrollToId } from "./ui";
+import { Btn, SectionHeading, scrollToId } from "./Uii";
 import Logo from "./Logo";
 
 export function Hero() {
